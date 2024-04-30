@@ -6,55 +6,16 @@
   font-weight: bold;
 }
 
-.documentation-link {
-  color: #1c17ff;
-  text-decoration: none;
-}
-
 .documentation-link:hover {
   color: #000000; /* Black color when hovering */
 }
 
-.custom-button {
-  display: inline-block;
-  padding: 2px 8px;
-  background-color: #f1f1f1;
-  color: #333; /* Text color */
-  border: 1px solid #aaa; /* Border color */
-  border-radius: 25px; /* Rounded borders */
-  text-align: center;
-  user-select: none;
-  transition: background-color 0.3s ease; /* Smooth transition for background color */
-}
-
-/* Change the button color on hover (make it unclickable) */
-.custom-button:hover {
-  background-color: #1c17ff;
-  color: #f1f1f1;
-}
-
-/* Adjust the width for the second column */
-td:nth-child(2) {
-  width: 200px; /* Adjust the width as per your requirement */
-}
-
-/* 
-Add an announcement bar 
-TODO: Figure out how to make this versions-specific. 
-*/
-/* #navbar:before {
-  background-color: #ff4c04;
-  content: "This API is currently in beta. If you'd like to request access, contact our Support Team";
-  color: rgb(255, 255, 255);
-  display: block;
-  text-align: center;
-  padding: 6px;
-  font-size: 90%;
-} */
-
 #navbar {
   background: white;
-  border-bottom: 1px solid #e2e5e7;
+}
+
+#navbar > div:nth-child(2) {
+  border-bottom: 1px solid #ebebeb;
 }
 
 #content-container {
@@ -65,7 +26,7 @@ TODO: Figure out how to make this versions-specific.
   left: 0rem;
   padding-left: 4rem;
   background: white;
-  border-right: 1px solid #e2e5e7;
+  border-right: 1px solid #ebebeb;
 }
 
 .card {
@@ -85,4 +46,3 @@ TODO: Figure out how to make this versions-specific.
 #navbar .max-w-8xl {
   max-width: 100%;
 }
-
