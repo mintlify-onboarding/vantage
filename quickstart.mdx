@@ -1,0 +1,49 @@
+---
+title: "Quickstart"
+---
+
+<Note>
+**Get Started**
+
+This quickstart guide will help you to set up your Vantage account, connect one or multiple providers, and start using Cost Reporting and Financial Planning features. 
+
+</Note>
+
+## Step 1: Create an Account[](#step-1-create-an-account "Direct link to Step 1: Create an Account")
+
+* To get started, [create a Vantage account](https://console.vantage.sh/signup).
+* Optionally, you can upgrade to a paid plan to unlock additional features and track higher amounts of cloud infrastructure costs. View the [Vantage Pricing page](https://www.vantage.sh/pricing) for all pricing and plan details. All paid plans have an option to trial the service before committing to a subscription.
+
+---
+
+## Step 2: Connect Providers[](#step-2-connect-providers "Direct link to Step 2: Connect Providers")
+
+Next, create a data integration between at least one of your providers and Vantage. Detailed integration documentation is linked for each of the providers below. 
+
+          <Card href="href">
+            <div className="integration-logo">
+                <img src="/images/logo-icon-aws.svg" style={{ marginBottom: '20px' }}/>
+            </div>
+            <h2 className="font-semibold text-base">Amazon Web Services (AWS)</h2>
+            <p>Vantage integrates with your AWS account through a Cross-Account IAM role, giving Vantage read-only access to an organization's cost data. After the initial sync, you will be able to take advantage of features in Vantage to manage, inspect, and model your AWS spend.</p>
+          </Card>
+          <Card href="href">
+            <div className="integration-logo">
+                <img src="/images/logo-icon-azure.svg" style={{ marginBottom: '20px' }}/>
+            </div>
+            <h2 className="font-semibold text-base">Azure</h2>
+            <p>Vantage integrates with your Azure account by using an Active Directory Service Principal, which can be assigned access to both management groups or individual subscriptions. Any subscriptions that are part of a resource group will be automatically imported..</p>
+          </Card>    
+
+
+---
+
+## Step 3: View Ingested Costs and Create Cost Reporting Resources[](#step-3-view-ingested-costs-and-create-cost-reporting-resources "Direct link to Step 3: View Ingested Costs and Create Cost Reporting Resources")
+
+Once you create some provider integrations, Vantage will automatically begin ingesting billing information for your account. The default landing page in the Vantage console is the [**Overview**](/overview) page. This page serves as an executive-level summary, providing a comprehensive snapshot of the cost metrics that matter most to you. 
+
+As you continue to set up your cost reporting infrastructure, you can use the below guides for some best practices in Vantage. 
+
+* [**Team Accountability**](/team%5Faccountability): To ensure team accountability in cloud cost management, follow this guide. Create Cost Report Folders for specific teams, generate Cost Reports for various dimensions, implement Cost Report notifications, set team budgets, and continually monitor and optimize to minimize unnecessary expenses, thus guaranteeing efficient cloud spending.
+* [**Executive Reporting**](/executive%5Freporting): If you want to set up executive-level reporting, follow this guide. Use tools in Vantage to effortlessly gather and present comprehensive insights into your organization's cloud spending, enabling you to deliver actionable reports that facilitate informed decision-making at the executive level.
+* [**Find Hidden Costs**](/hidden%5Fcosts): If you want to uncover hidden costs and optimize spending, follow this guide. Vantage provides tools like Active Resources for listing cost-driving resources and Cost Anomaly Alerts to automatically detect and alert on unexpected expenses.
