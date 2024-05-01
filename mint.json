@@ -58,7 +58,8 @@
       "group": "Account and Security",
       "pages": [
         "security",
-        "account-settings"
+        "account-settings",
+        "single-sign-on"
       ]
     },
     {
