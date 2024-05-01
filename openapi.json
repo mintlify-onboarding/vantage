@@ -19,7 +19,7 @@
     }
   ],
   "paths": {
-    "/plants/{id}": {
+    "/workspaces": {
       "get": {
         "parameters": [
           {

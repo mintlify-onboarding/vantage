@@ -1,0 +1,65 @@
+---
+title: Instances
+---
+
+[EC2Instances.info](https://instances.vantage.sh) shows current pricing for AWS EC2, RDS, and ElastiCache instances. The tool is completely [open source](https://github.com/vantage-sh/ec2instances.info) and uses the same Amazon APIs available to everyone. Development for Instances is coordinated through the [Vantage Slack](https://vantage.sh/slack) as well as on [Github](https://github.com/vantage-sh/ec2instances.info).
+
+## Why?
+
+Because it's frustrating to compare instances using Amazon's own [instance type](http://aws.amazon.com/ec2/instance-types/), [pricing](http://aws.amazon.com/ec2/pricing/), and other pages.
+
+## Columns and Filters
+
+![Columns and Filters](https://handbook.vantage.sh/img/tools/instances/column_selector.png)
+
+Nearly every service attribute available for a specific instance is available, although most are hidden by default. You can add more attributes, for example, GPUs, by clicking the `Columns` dropdown. Other dropdowns allow for selecting the `Region`, changing the per-unit basis of calculation (e.g. vCPUs), and changing the term of the `Reserved` instance purchase.
+
+For each column that is shown, it can be further filtered using simple glob matching, and the entire table can be searched using the top right search box.
+
+### Regex Support
+
+![Filter EC2 instances by Regex](https://handbook.vantage.sh/img/tools/instances/regex-filter.png)
+
+Each column and the top right search bar support regex expressions. So you can enter an expression like this: `[rt][3456].?.larg` and the resulting rows will be a mix of t and r instances as shown above.
+
+## Comparing Instances
+
+![Compare instances](https://handbook.vantage.sh/img/tools/instances/compare_selected.gif)
+
+By clicking on an individual row in the table, you can select it to be compared with other rows. You can do this while filtering as well. Click `Compare Selected` and only the selected rows will be shown. The URL is also changed so this specific comparison can be shared with others.
+
+## Detail Pages
+
+![Detail Pages](https://handbook.vantage.sh/img/tools/instances/detail-pages.png)
+
+For EC2 and RDS, the `API Name` column contains clickable links to each instance type. The Detail Page for the instance is essentially a pivot of the main table, with some additional tools to make information more digestible.
+
+### Pricing Widget
+
+In upper left corner there's a pricing widget has selectors calculating estimated cost of instance in different regions over different amounts time or software runs on instance when price shown "N/A" indicates not available purchase combination selectors used
+
+### Instance Attributes
+
+In middle each Detail Page major categories attributes their values These attributes all selectable columns main Instances pages To request more attributes click Open ticket bottom right
+
+## Saving Clearing Filters
+
+Instances automatically saves filters selections applied local storage This means open new session will shown most recent set filters columns This helpful working services mostly use same types instances
+
+To reset table click Clear Filters
+
+## Export Data
+
+The table its filters applied sorted columns shown hidden exported exactly CSV Data EC2 also available free from Vantage API
+
+## Azure Support Beta
+
+Azure VM types pricing comparison also available Beta Switch Azure bottom left corner page
+
+## Contributors
+
+ECInstanceinfo started powdahound contributed many now managed maintained Vantag awaits improvements GitHub In development Detail Pages used components designs cloudhwinfo permission Joshua Powers
+
+## Warning
+
+ECInstanceinfo not maintained affiliated Amazon data show guaranteed accurate current Please report issues see Contribute contribute page GitHub join cloudcostshandbook channel Vantag Community Slack
