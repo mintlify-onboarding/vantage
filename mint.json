@@ -1,78 +1,75 @@
 {
-    "$schema": "https://mintlify.com/schema.json",
-     "name": "Vantage",
-     "logo": {
-       "light": "/logo/light.svg",
-       "dark": "/logo/dark.svg"
-     },
-     "favicon": "/favicon.png",
-     "colors": {
-       "primary": "#ad4dd6",
-       "light": "#D676FF",
-       "dark": "#ad4dd6"
-     },
-     "topbarCtaButton": {
-       "name": "Get Started",
-       "url": "https://console.vantage.sh/signup"
-     },
-     "topbarLinks": [
-       {
-         "name": "Login",
-         "url": "https://console.vantage.sh/login"
-       }
-     ],
-     "anchors": [
-       {
-         "name": "Get a Demo",
-         "icon": "presentation-screen",
-         "url": "https://www.vantage.sh/contact/sales"
-       },
-       {
-        "name": "Community",
-        "icon": "slack",
-        "url": "https://vantagecommunity.slack.com/join/shared_invite/zt-2f0rvzl9i-Qeotp0G8dO~C3eMo2TkoVg#/shared-invite/email"
-      },
-      {
-        "name": "Blog",
-        "icon": "newspaper",
-        "url": "https://www.vantage.sh/blog/"
-      }
-     ],
-     "tabs": [
-        {
-            "name": "API Reference",
-            "url": "api-reference"
-        }
-    ],
-     "modeToggle": {
-        "default": "light",
-        "isHidden": true
-     },
-     "navigation": [
-       {
-         "group": "Get Started",
-         "pages": [
-            "introduction",
-            "quickstart"            
-         ]
-       },
-       {
-        "group": "Account and Security",
-        "pages": [
-            "security",
-            "account-settings"
-        ]
-      },
-      {
-        "group": "Example Endpoint",
-        "pages": [
-           "api-reference/overview"
-        ]
-      }
-     ],
-     "footerSocials":
-       {
-           "twitter": "https://twitter.com/JoinVantage",
-           "linkedin": "https://www.linkedin.com/company/vantage-sh/"
-       }
-   }
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Vantage",
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "favicon": "/favicon.png",
+  "colors": {
+    "primary": "#ad4dd6",
+    "light": "#D676FF",
+    "dark": "#ad4dd6",
+    "background": {
+      "light": "#FDFCFD"
+    }
+  },
+  "topbarCtaButton": {
+    "name": "Get Started",
+    "url": "https://console.vantage.sh/signup"
+  },
+  "topbarLinks": [
+    {
+      "name": "Login",
+      "url": "https://console.vantage.sh/login"
+    }
+  ],
+  "tabs": [
+    {
+      "name": "Changelog",
+      "url": "changelog"
+    },
+    {
+      "name": "API Reference",
+      "url": "api-reference"
+    },
+    {
+      "name": "Cloud Cost Handbook",
+      "url": "https://www.vantage.sh/pricing"
+    },
+    {
+      "name": "Pricing",
+      "url": "https://www.vantage.sh/pricing"
+    }
+  ],
+  "modeToggle": {
+    "default": "light",
+    "isHidden": true
+  },
+  "navigation": [
+    {
+      "group": "Get Started",
+      "pages": [
+        "introduction",
+        "quickstart"
+      ]
+    },
+    {
+      "group": "Account and Security",
+      "pages": [
+        "security",
+        "account-settings"
+      ]
+    },
+    {
+      "group": "Example Endpoint",
+      "pages": [
+        "api-reference/overview"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "x": "https://x.com/JoinVantage",
+    "linkedin": "https://www.linkedin.com/company/vantage-sh/"
+  }
+}
