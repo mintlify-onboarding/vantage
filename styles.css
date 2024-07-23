@@ -21,25 +21,6 @@ h3 {
   color: #000000; /* Black color when hovering */
 }
 
-#navbar {
-  background: white;
-}
-
-#navbar > div:nth-child(2) {
-  border-bottom: 1px solid #ebebeb;
-}
-
-#content-container {
-  margin-top: 2rem;
-}
-
-#sidebar {
-  left: 0rem;
-  padding-left: 3rem;
-  background: white;
-  border-right: 1px solid #ebebeb;
-}
-
 .card {
   border-radius: 4px;
 }
@@ -48,12 +29,4 @@ h3 {
   text-transform: uppercase;
   font-weight: 400;
   color: #121142;
-}
-
-#search-bar-entry {
-  border-radius: 4px;
-}
-
-#navbar .max-w-8xl {
-  max-width: 100%;
 }
